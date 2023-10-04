@@ -1,0 +1,48 @@
+h1.titulo{
+  font-size: xx-large;
+}
+
+h6.subtitulo{
+  margin-inline-start: 2vh;
+  
+}
+p{
+  font-size: smaller;
+  margin-inline-start: 2vh;
+  width: min-content;
+}
+ion-input{
+  width: 25vh;
+  margin-inline-start: 4vh;
+}
+ion-select {
+  width: 25vh;
+  margin-inline-start: 4vh;
+}
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}

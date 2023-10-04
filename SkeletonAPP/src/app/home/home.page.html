@@ -1,0 +1,69 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      SkeletonAPP
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ <!--titulo-->
+ <ion-col class="cabeza">
+  <ion-row class="ion-text-center">
+    <ion-title>
+     <h1 class="titulo">Bienvenido!</h1> 
+    </ion-title>
+  </ion-row>
+  <ion-row >
+    <h6 class="subtitulo">Usuario: </h6>
+  </ion-row>
+</ion-col>
+
+<!--subtitulo-->
+<ion-col class="cuerpo">
+  <ion-row class= "ion-text-center">
+    <ion-title>
+      <h2>Información Adicional</h2>
+    </ion-title>
+  </ion-row>
+</ion-col>
+
+<!--informacion adicional-->
+<ion-col>
+  <ion-row>
+    <p>Usuario </p>
+    <ion-input class="input" fill="solid"  color="dark" placeholder="Ingrese nombre"></ion-input>
+  </ion-row>
+  <ion-row>
+    <p>Apellido </p>
+    <ion-input class="input" fill="solid"  color="dark" placeholder="Ingrese Apellido"></ion-input>
+  </ion-row>
+  <ion-row>
+    <p>Nivel de educacion </p>
+    <ion-select aria-label="Favorite Fruit" placeholder="Seleccione nivel">
+      <ion-select-option value="Basica">Basica</ion-select-option>
+      <ion-select-option value="Media">Media</ion-select-option>
+      <ion-select-option value="Superior">Superior</ion-select-option>
+    </ion-select>
+  </ion-row>
+  <ion-row>
+    <p>Fecha nacimiento <p>
+    <ion-datetime open="false" presentation="day-month-year"></ion-datetime>
+  </ion-row>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="block" color= "dark" fill="outline" >Limpiar</ion-button>  
+      </ion-col>
+      <ion-col> 
+        <ion-button expand="block" color= "dark" fill="outline" >Mostrar</ion-button>
+      </ion-col>  
+      </ion-row>
+  </ion-grid>
+</ion-col>
+
+
+
+ 
+</ion-content>
